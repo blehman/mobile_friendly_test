@@ -6,6 +6,8 @@ body.on("wheel", adjustScrolling);
 
 body.on("scroll", adjustScrolling);
 
+win.on("scroll", adjustScrolling);
+
 window.addEventListener('scroll', adjustScrolling);
 
 function adjustScrolling(){
