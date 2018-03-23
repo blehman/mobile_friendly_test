@@ -4,7 +4,7 @@ var win = d3.select(window)
 
 body.on("wheel", adjustScrolling);
 
-win.on("scroll", adjustScrolling);
+body.on("scroll", adjustScrolling);
 
 window.addEventListener('scroll', adjustScrolling);
 
