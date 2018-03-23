@@ -9,3 +9,7 @@ body.on("wheel", function() {
 win.on("scroll", function() {
     scroll.property("scrollTop", +scroll.property("scrollTop") + d3.event.deltaY)
 });
+
+window.addEventListener('scroll', function(e) {
+  scroll.property("scrollTop", +scroll.property("scrollTop") + d3.event.deltaY)
+});  
