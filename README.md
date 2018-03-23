@@ -1,1 +1,0 @@
-# mobile_friendly_test
